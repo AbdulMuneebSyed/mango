@@ -37,5 +37,5 @@ PORT=5000
 MONGODB_URI=mongodb://localhost:27017/chapter-dashboard
 REDIS_URL=redis://localhost:6379
 JWT_SECRET=your-secret-key
-ADMIN_EMAIL=admin@mathongo.com
-ADMIN_PASSWORD=admin123
+ADMIN_EMAIL=admin@mathongo.com //important
+ADMIN_PASSWORD=admin123  //important
