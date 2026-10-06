@@ -11,7 +11,7 @@ const app = express();
 
 // Security middleware
 app.use(helmet());
-app.use(cors());
+app.use(cors({ origin: (process.env.ALLOWED_ORIGINS || "http://localhost:3000").split(",") }));
 
 // Logging middleware
 app.use(morgan("combined"));
